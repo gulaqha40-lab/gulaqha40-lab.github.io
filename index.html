@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,152 +7,189 @@
 <title>Gulaqa Nikzad | Professional Profile</title>
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f7fb;
-    color: #222;
-    line-height: 1.7;
+body{
+    font-family:Arial, Tahoma, sans-serif;
+    background:#f4f7fb;
+    color:#222;
+    line-height:1.8;
 }
 
-header {
-    background: linear-gradient(135deg, #0b3d91, #1769d1);
-    color: white;
-    text-align: center;
-    padding: 75px 20px;
+header{
+    background:linear-gradient(135deg,#0b3d91,#1769d1);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
 }
 
-header h1 {
-    font-size: 44px;
-    margin-bottom: 10px;
+header h1{
+    font-size:44px;
+    margin-bottom:10px;
 }
 
-header p {
-    font-size: 20px;
-    margin: 5px;
+header p{
+    font-size:19px;
+    margin:5px;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 12px 25px;
-    background: white;
-    color: #0b3d91;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
+.language-switcher{
+    margin-top:25px;
 }
 
-nav {
-    background: white;
-    padding: 16px;
-    text-align: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    position: sticky;
-    top: 0;
-    z-index: 100;
+.language-switcher button{
+    border:none;
+    padding:10px 18px;
+    margin:4px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:bold;
+    background:white;
+    color:#0b3d91;
 }
 
-nav a {
-    color: #0b3d91;
-    text-decoration: none;
-    margin: 0 12px;
-    font-weight: bold;
+.language-switcher button:hover{
+    background:#e7efff;
 }
 
-.container {
-    max-width: 1050px;
-    margin: auto;
-    padding: 20px;
+.contact-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#0b3d91;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
 }
 
-section {
-    background: white;
-    margin: 30px 0;
-    padding: 35px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+nav{
+    background:white;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+    z-index:100;
 }
 
-h2 {
-    color: #0b3d91;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #1769d1;
-    padding-bottom: 8px;
+nav a{
+    color:#0b3d91;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
 }
 
-.card {
-    background: #f7f9fc;
-    padding: 22px;
-    margin: 15px 0;
-    border-left: 5px solid #1769d1;
-    border-radius: 8px;
+.container{
+    max-width:1050px;
+    margin:auto;
+    padding:20px;
 }
 
-.card h3 {
-    color: #0b3d91;
-    margin-bottom: 8px;
+section{
+    background:white;
+    margin:30px 0;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,.07);
 }
 
-ul {
-    padding-left: 22px;
+h2{
+    color:#0b3d91;
+    margin-bottom:20px;
+    border-bottom:2px solid #1769d1;
+    padding-bottom:8px;
 }
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.card{
+    background:#f7f9fc;
+    padding:22px;
+    margin:15px 0;
+    border-left:5px solid #1769d1;
+    border-radius:8px;
 }
 
-.skill {
-    background: #e9f1ff;
-    color: #0b3d91;
-    padding: 9px 15px;
-    border-radius: 20px;
-    font-weight: bold;
+.card h3{
+    color:#0b3d91;
+    margin-bottom:8px;
 }
 
-.contact {
-    text-align: center;
+ul{
+    padding-left:22px;
 }
 
-.contact a {
-    color: #0b3d91;
-    text-decoration: none;
-    font-weight: bold;
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
 }
 
-footer {
-    background: #0b3d91;
-    color: white;
-    text-align: center;
-    padding: 30px 15px;
-    margin-top: 40px;
+.skill{
+    background:#e9f1ff;
+    color:#0b3d91;
+    padding:9px 15px;
+    border-radius:20px;
+    font-weight:bold;
 }
 
-@media (max-width: 700px) {
+.contact{
+    text-align:center;
+}
 
-    header h1 {
-        font-size: 34px;
+.contact a{
+    color:#0b3d91;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    background:#0b3d91;
+    color:white;
+    text-align:center;
+    padding:30px 15px;
+    margin-top:40px;
+}
+
+[dir="rtl"] body{
+    font-family:Tahoma, Arial, sans-serif;
+}
+
+[dir="rtl"] nav a{
+    display:inline-block;
+}
+
+[dir="rtl"] ul{
+    padding-right:22px;
+    padding-left:0;
+}
+
+[dir="rtl"] .card{
+    border-left:none;
+    border-right:5px solid #1769d1;
+}
+
+@media(max-width:700px){
+
+    header h1{
+        font-size:34px;
     }
 
-    header p {
-        font-size: 17px;
+    header p{
+        font-size:17px;
     }
 
-    nav a {
-        display: inline-block;
-        margin: 5px;
-        font-size: 14px;
+    nav a{
+        display:inline-block;
+        margin:5px;
+        font-size:14px;
     }
 
-    section {
-        padding: 25px 20px;
+    section{
+        padding:25px 20px;
     }
 }
 </style>
@@ -161,39 +198,67 @@ footer {
 <body>
 
 <header>
-    <h1>Gulaqa Nikzad</h1>
 
-    <p>Administrative & Community Engagement Professional</p>
+<h1 id="name">Gulaqa Nikzad</h1>
 
-    <p>Herat, Afghanistan</p>
+<p id="jobTitle">
+Administrative & Community Engagement Professional
+</p>
 
-    <a class="btn" href="mailto:gulaqha40@gmail.com">
-        Contact Me
-    </a>
+<p id="location">
+Herat, Afghanistan
+</p>
+
+<div class="language-switcher">
+
+<button onclick="setLanguage('en')">English</button>
+
+<button onclick="setLanguage('fa')">دری</button>
+
+<button onclick="setLanguage('ps')">پښتو</button>
+
+</div>
+
+<a class="contact-btn" href="mailto:gulaqha40@gmail.com" id="contactButton">
+Contact Me
+</a>
+
 </header>
 
+
 <nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#experience">Experience</a>
-    <a href="#volunteer">Volunteer</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+
+<a href="#about" id="navAbout">About</a>
+
+<a href="#education" id="navEducation">Education</a>
+
+<a href="#experience" id="navExperience">Experience</a>
+
+<a href="#volunteer" id="navVolunteer">Volunteer</a>
+
+<a href="#skills" id="navSkills">Skills</a>
+
+<a href="#contact" id="navContact">Contact</a>
+
 </nav>
+
 
 <div class="container">
 
+
 <section id="about">
 
-<h2>About Me</h2>
+<h2 id="aboutTitle">About Me</h2>
 
-<p>
+<p id="aboutText1">
 I am a committed, responsible and results-oriented professional
-with a Bachelor's Degree in Law and Political Science, specializing
-in Administration and Diplomacy.
+with a Bachelor's Degree in Law and Political Science,
+specializing in Administration and Diplomacy.
 </p>
 
-<p>
+<br>
+
+<p id="aboutText2">
 I have professional experience in administration, accounting,
 financial reporting, data management and community engagement.
 I am particularly interested in humanitarian and development
@@ -205,21 +270,21 @@ opportunities where I can contribute my skills and experience.
 
 <section id="education">
 
-<h2>Education</h2>
+<h2 id="educationTitle">Education</h2>
 
 <div class="card">
 
 <h3>Kandahar University</h3>
 
-<p>
-<strong>Bachelor's Degree in Law and Political Science</strong>
+<p id="degree">
+Bachelor's Degree in Law and Political Science
 </p>
 
-<p>
+<p id="field">
 Administration and Diplomacy
 </p>
 
-<p>
+<p id="graduation">
 Graduated: 2023
 </p>
 
@@ -230,23 +295,26 @@ Graduated: 2023
 
 <section id="experience">
 
-<h2>Professional Experience</h2>
+<h2 id="experienceTitle">Professional Experience</h2>
 
 <div class="card">
 
-<h3>Administrative and Accounting Officer</h3>
+<h3 id="position">
+Administrative and Accounting Officer
+</h3>
 
 <p>
 <strong>Akhtar Mohammad Private Gas Company</strong>
 </p>
 
-<p>
+<p id="experienceLocation">
 Zawal District, Herat | 2023 – 2026
 </p>
 
 <br>
 
-<ul>
+<ul id="experienceList">
+
 <li>Managed administrative documents and financial records.</li>
 
 <li>Prepared financial and monthly sales reports.</li>
@@ -258,6 +326,7 @@ Zawal District, Herat | 2023 – 2026
 <li>Maintained customer registration and data records.</li>
 
 <li>Supported daily administrative and accounting activities.</li>
+
 </ul>
 
 </div>
@@ -267,7 +336,7 @@ Zawal District, Herat | 2023 – 2026
 
 <section id="volunteer">
 
-<h2>Volunteer Experience</h2>
+<h2 id="volunteerTitle">Volunteer Experience</h2>
 
 <div class="card">
 
@@ -285,7 +354,7 @@ UNHCR-supported project
 
 <br>
 
-<ul>
+<ul id="volunteerList">
 
 <li>Supported community outreach and awareness activities.</li>
 
@@ -304,7 +373,7 @@ UNHCR-supported project
 
 <section id="skills">
 
-<h2>Professional Skills</h2>
+<h2 id="skillsTitle">Professional Skills</h2>
 
 <div class="skills">
 
@@ -337,9 +406,11 @@ UNHCR-supported project
 
 <section>
 
-<h2>Training & Certificates</h2>
+<h2 id="trainingTitle">
+Training & Certificates
+</h2>
 
-<ul>
+<ul id="trainingList">
 
 <li>Protection from Sexual Exploitation and Abuse (PSEA)</li>
 
@@ -358,15 +429,23 @@ UNHCR-supported project
 
 <section>
 
-<h2>Languages</h2>
+<h2 id="languagesTitle">
+Languages
+</h2>
 
 <div class="card">
 
-<p><strong>Dari:</strong> Fluent</p>
+<p id="dari">
+Dari: Fluent
+</p>
 
-<p><strong>Pashto:</strong> Fluent</p>
+<p id="pashto">
+Pashto: Fluent
+</p>
 
-<p><strong>English:</strong> Improving</p>
+<p id="english">
+English: Improving
+</p>
 
 </div>
 
@@ -375,7 +454,9 @@ UNHCR-supported project
 
 <section id="contact" class="contact">
 
-<h2>Contact Me</h2>
+<h2 id="contactTitle">
+Contact Me
+</h2>
 
 <p>
 Email:
@@ -395,7 +476,9 @@ Phone:
 </a>
 </p>
 
-<p>Herat, Afghanistan</p>
+<p id="contactLocation">
+Herat, Afghanistan
+</p>
 
 </section>
 
@@ -408,11 +491,41 @@ Phone:
 © 2026 Gulaqa Nikzad
 </p>
 
-<p>
+<p id="footerText">
 Professional Profile
 </p>
 
 </footer>
 
-</body>
-</html>
+
+<script>
+
+const translations = {
+
+en: {
+
+dir:"ltr",
+
+name:"Gulaqa Nikzad",
+
+jobTitle:"Administrative & Community Engagement Professional",
+
+location:"Herat, Afghanistan",
+
+contactButton:"Contact Me",
+
+navAbout:"About",
+
+navEducation:"Education",
+
+navExperience:"Experience",
+
+navVolunteer:"Volunteer",
+
+navSkills:"Skills",
+
+navContact:"Contact",
+
+aboutTitle:"About Me",
+
+about
