@@ -1,200 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gulaqa Nikzad | Professional Profile</title>
+<title>Gulaqa Nikzad</title>
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-
 body{
-font-family:Arial,Tahoma,sans-serif;
-background:#f4f7fb;
-color:#222;
-line-height:1.8;
+    margin:0;
+    font-family:Arial,Tahoma,sans-serif;
+    background:#f4f7fb;
+    color:#222;
+    line-height:1.7;
 }
-
 header{
-background:linear-gradient(135deg,#0b3d91,#1769d1);
-color:white;
-text-align:center;
-padding:65px 20px;
+    background:#0b3d91;
+    color:white;
+    text-align:center;
+    padding:45px 15px;
 }
-
-header h1{
-font-size:42px;
-margin-bottom:8px;
-}
-
-header p{
-font-size:18px;
-margin:5px;
-}
-
-.languages{
-margin:20px 0;
-}
-
-.languages button{
-border:0;
-padding:10px 18px;
-margin:4px;
-border-radius:25px;
-cursor:pointer;
-font-weight:bold;
-color:#0b3d91;
-background:white;
-}
-
-.languages button:hover{
-background:#e7efff;
-}
-
-.contact-btn{
-display:inline-block;
-margin-top:15px;
-padding:11px 24px;
-border-radius:25px;
-background:white;
-color:#0b3d91;
-text-decoration:none;
-font-weight:bold;
-}
-
-.top-contact{
-margin-top:15px;
-font-size:15px;
-}
-
-.top-contact a{
-color:white;
-text-decoration:none;
-margin:0 6px;
-}
-
+h1{margin:0;font-size:38px}
+header p{margin:7px}
 nav{
-background:white;
-padding:15px;
-text-align:center;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-position:sticky;
-top:0;
-z-index:10;
+    background:white;
+    text-align:center;
+    padding:15px;
 }
-
 nav a{
-color:#0b3d91;
-text-decoration:none;
-margin:0 10px;
-font-weight:bold;
+    color:#0b3d91;
+    text-decoration:none;
+    margin:8px;
+    font-weight:bold;
 }
-
 .container{
-max-width:1050px;
-margin:auto;
-padding:20px;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
 }
-
 section{
-background:white;
-margin:25px 0;
-padding:30px;
-border-radius:14px;
-box-shadow:0 3px 12px rgba(0,0,0,.07);
+    background:white;
+    margin:20px 0;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 8px #ddd;
 }
-
 h2{
-color:#0b3d91;
-border-bottom:2px solid #1769d1;
-padding-bottom:7px;
-margin-bottom:18px;
+    color:#0b3d91;
+    border-bottom:2px solid #1769d1;
+    padding-bottom:5px;
 }
-
-.card{
-background:#f7f9fc;
-padding:20px;
-margin:12px 0;
-border-left:5px solid #1769d1;
-border-radius:7px;
+button{
+    padding:9px 15px;
+    margin:4px;
+    border:0;
+    border-radius:20px;
+    cursor:pointer;
+    font-weight:bold;
 }
-
-ul{
-padding-left:22px;
-}
-
-.skills{
-display:flex;
-flex-wrap:wrap;
-gap:9px;
-}
-
-.skill{
-background:#e9f1ff;
-color:#0b3d91;
-padding:8px 14px;
-border-radius:20px;
-font-weight:bold;
-}
-
-.contact{
-text-align:center;
-}
-
-.contact p{
-margin:10px 0;
-}
-
 .contact a{
-color:#0b3d91;
-font-weight:bold;
-text-decoration:none;
+    color:#0b3d91;
+    font-weight:bold;
+    text-decoration:none;
 }
-
+.skill{
+    display:inline-block;
+    background:#e8f0ff;
+    color:#0b3d91;
+    padding:7px 12px;
+    margin:4px;
+    border-radius:18px;
+}
 footer{
-background:#0b3d91;
-color:white;
-text-align:center;
-padding:25px;
-}
-
-[dir="rtl"]{
-text-align:right;
-}
-
-[dir="rtl"] ul{
-padding-right:22px;
-padding-left:0;
-}
-
-[dir="rtl"] .card{
-border-left:0;
-border-right:5px solid #1769d1;
-}
-
-@media(max-width:700px){
-header h1{
-font-size:32px;
-}
-
-header p{
-font-size:16px;
-}
-
-nav a{
-display:inline-block;
-margin:4px;
-font-size:14px;
-}
-
-section{
-padding:22px 18px;
-}
-
-.top-contact a{
-display:block;
-margin:5px 0;
-}
+    background:#0b3d91;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
 </style>
 </head>
@@ -205,7 +85,7 @@ margin:5px 0;
 
 <h1 id="name">Gulaqa Nikzad</h1>
 
-<p id="jobTitle">
+<p id="job">
 Administrative & Community Engagement Professional
 </p>
 
@@ -213,61 +93,82 @@ Administrative & Community Engagement Professional
 Herat, Afghanistan
 </p>
 
-<div class="top-contact">
-
-<a href="mailto:gulaqha40@gmail.com">
+<p>
+<a style="color:white" href="mailto:gulaqha40@gmail.com">
 ✉️ gulaqha40@gmail.com
 </a>
+</p>
 
-<a href="tel:+93700699664">
+<p>
+<a style="color:white" href="tel:+93700699664">
 📞 +93 700 699 664
 </a>
+</p>
 
-<a href="tel:+93728959340">
+<p>
+<a style="color:white" href="tel:+93728959340">
 📞 +93 728 959 340
 </a>
+</p>
+
+<div>
+
+<button onclick="changeLanguage('en')">
+English
+</button>
+
+<button onclick="changeLanguage('fa')">
+دری
+</button>
+
+<button onclick="changeLanguage('ps')">
+پښتو
+</button>
 
 </div>
-
-<div class="languages">
-<button onclick="changeLanguage('en')">English</button>
-<button onclick="changeLanguage('fa')">دری</button>
-<button onclick="changeLanguage('ps')">پښتو</button>
-</div>
-
-<a class="contact-btn" href="#contact" id="contactButton">
-Contact Me
-</a>
 
 </header>
+
 
 <nav>
 
 <a href="#about" id="navAbout">About</a>
 
-<a href="#education" id="navEducation">Education</a>
+<a href="#education" id="navEducation">
+Education
+</a>
 
-<a href="#experience" id="navExperience">Experience</a>
+<a href="#experience" id="navExperience">
+Experience
+</a>
 
-<a href="#volunteer" id="navVolunteer">Volunteer</a>
+<a href="#volunteer" id="navVolunteer">
+Volunteer
+</a>
 
-<a href="#skills" id="navSkills">Skills</a>
+<a href="#skills" id="navSkills">
+Skills
+</a>
 
-<a href="#contact" id="navContact">Contact</a>
+<a href="#contact" id="navContact">
+Contact
+</a>
 
 </nav>
 
+
 <div class="container">
+
 
 <section id="about">
 
-<h2 id="aboutTitle">About Me</h2>
+<h2 id="aboutTitle">
+About Me
+</h2>
 
 <p id="aboutText">
 I am a committed, responsible and results-oriented professional with a Bachelor's Degree in Law and Political Science.
 </p>
-
-<br>
 
 <p id="aboutText2">
 I have professional experience in administration, accounting, financial reporting, data management and community engagement. I am interested in humanitarian and development opportunities where I can contribute my skills and experience.
@@ -278,11 +179,13 @@ I have professional experience in administration, accounting, financial reportin
 
 <section id="education">
 
-<h2 id="educationTitle">Education</h2>
+<h2 id="educationTitle">
+Education
+</h2>
 
-<div class="card">
-
-<h3>Kandahar University</h3>
+<h3>
+Kandahar University
+</h3>
 
 <p id="degree">
 Bachelor's Degree in Law and Political Science
@@ -292,48 +195,56 @@ Bachelor's Degree in Law and Political Science
 Graduated: 2023
 </p>
 
-</div>
-
 </section>
 
 
 <section id="experience">
 
-<h2 id="experienceTitle">Professional Experience</h2>
-
-<div class="card">
+<h2 id="experienceTitle">
+Professional Experience
+</h2>
 
 <h3 id="position">
 Accountant
 </h3>
 
 <p>
-<strong>Akhtar Mohammad Private Gas Company</strong>
+<strong>
+Akhtar Mohammad Private Gas Company
+</strong>
 </p>
 
 <p id="experienceLocation">
 Zawal District, Herat | 2023 – 2026
 </p>
 
-<br>
-
 <ul id="experienceList">
 
-<li>Maintained financial and accounting records.</li>
+<li>
+Maintained financial and accounting records.
+</li>
 
-<li>Prepared financial and monthly sales reports.</li>
+<li>
+Prepared financial and monthly sales reports.
+</li>
 
-<li>Managed accounts payable and receivable records.</li>
+<li>
+Managed accounts payable and receivable records.
+</li>
 
-<li>Prepared inventory and stock reports.</li>
+<li>
+Prepared inventory and stock reports.
+</li>
 
-<li>Maintained customer registration and data records.</li>
+<li>
+Maintained customer registration and data records.
+</li>
 
-<li>Supported daily accounting and financial activities.</li>
+<li>
+Supported daily accounting and financial activities.
+</li>
 
 </ul>
-
-</div>
 
 </section>
 
@@ -344,9 +255,9 @@ Zawal District, Herat | 2023 – 2026
 Volunteer Experience
 </h2>
 
-<div class="card">
-
-<h3>Community Outreach Volunteer (COV)</h3>
+<h3>
+Community Outreach Volunteer (COV)
+</h3>
 
 <p>
 <strong>
@@ -358,21 +269,25 @@ Ansari Rehabilitation Association for Afghanistan (ARAA)
 UNHCR-supported project
 </p>
 
-<br>
-
 <ul id="volunteerList">
 
-<li>Supported community outreach and awareness activities.</li>
+<li>
+Supported community outreach and awareness activities.
+</li>
 
-<li>Communicated with community members and identified concerns.</li>
+<li>
+Communicated with community members and identified concerns.
+</li>
 
-<li>Supported information sharing and community engagement.</li>
+<li>
+Supported information sharing and community engagement.
+</li>
 
-<li>Promoted protection principles and humanitarian values.</li>
+<li>
+Promoted protection principles and humanitarian values.
+</li>
 
 </ul>
-
-</div>
 
 </section>
 
@@ -383,31 +298,17 @@ UNHCR-supported project
 Professional Skills
 </h2>
 
-<div class="skills">
-
 <span class="skill">Microsoft Word</span>
-
 <span class="skill">Microsoft Excel</span>
-
 <span class="skill">PowerPoint</span>
-
 <span class="skill">Data Entry</span>
-
 <span class="skill">Data Management</span>
-
 <span class="skill">Administration</span>
-
 <span class="skill">Accounting</span>
-
 <span class="skill">Financial Reporting</span>
-
 <span class="skill">Community Engagement</span>
-
 <span class="skill">Protection Principles</span>
-
 <span class="skill">Internet Skills</span>
-
-</div>
 
 </section>
 
@@ -451,8 +352,6 @@ Protection Principles and Safeguarding
 Languages
 </h2>
 
-<div class="card">
-
 <p id="dari">
 Dari: Fluent
 </p>
@@ -465,8 +364,6 @@ Pashto: Fluent
 English: Improving
 </p>
 
-</div>
-
 </section>
 
 
@@ -477,7 +374,9 @@ Contact Me
 </h2>
 
 <p>
-✉️ <strong id="emailLabel">Email:</strong>
+✉️ <strong id="emailLabel">
+Email:
+</strong>
 
 <a href="mailto:gulaqha40@gmail.com">
 gulaqha40@gmail.com
@@ -486,7 +385,9 @@ gulaqha40@gmail.com
 </p>
 
 <p>
-📞 <strong id="phoneLabel">Phone:</strong>
+📞 <strong id="phoneLabel">
+Phone:
+</strong>
 
 <a href="tel:+93700699664">
 +93 700 699 664
@@ -495,7 +396,9 @@ gulaqha40@gmail.com
 </p>
 
 <p>
-📞 <strong id="phoneLabel2">Phone:</strong>
+📞 <strong id="phoneLabel2">
+Phone:
+</strong>
 
 <a href="tel:+93728959340">
 +93 728 959 340
@@ -514,209 +417,173 @@ gulaqha40@gmail.com
 
 <footer>
 
-<p>
 © 2026 Gulaqa Nikzad
-</p>
-
-<p id="footerText">
-Professional Profile
-</p>
 
 </footer>
 
 
 <script>
 
-const translations = {
+function changeLanguage(language){
 
-en:{
+if(language === "en"){
 
-dir:"ltr",
+document.documentElement.lang="en";
+document.documentElement.dir="ltr";
 
-name:"Gulaqa Nikzad",
+document.getElementById("job").innerText="Administrative & Community Engagement Professional";
+document.getElementById("location").innerText="Herat, Afghanistan";
 
-job:"Administrative & Community Engagement Professional",
+document.getElementById("navAbout").innerText="About";
+document.getElementById("navEducation").innerText="Education";
+document.getElementById("navExperience").innerText="Experience";
+document.getElementById("navVolunteer").innerText="Volunteer";
+document.getElementById("navSkills").innerText="Skills";
+document.getElementById("navContact").innerText="Contact";
 
-location:"Herat, Afghanistan",
+document.getElementById("aboutTitle").innerText="About Me";
 
-contact:"Contact Me",
+document.getElementById("aboutText").innerText=
+"I am a committed, responsible and results-oriented professional with a Bachelor's Degree in Law and Political Science.";
 
-about:"About",
+document.getElementById("aboutText2").innerText=
+"I have professional experience in administration, accounting, financial reporting, data management and community engagement. I am interested in humanitarian and development opportunities where I can contribute my skills and experience.";
 
-education:"Education",
+document.getElementById("educationTitle").innerText="Education";
+document.getElementById("degree").innerText="Bachelor's Degree in Law and Political Science";
+document.getElementById("graduation").innerText="Graduated: 2023";
 
-experience:"Experience",
+document.getElementById("experienceTitle").innerText="Professional Experience";
+document.getElementById("position").innerText="Accountant";
+document.getElementById("experienceLocation").innerText="Zawal District, Herat | 2023 – 2026";
 
-volunteer:"Volunteer",
+document.getElementById("volunteerTitle").innerText="Volunteer Experience";
 
-skills:"Skills",
+document.getElementById("skillsTitle").innerText="Professional Skills";
 
-contactNav:"Contact",
+document.getElementById("trainingTitle").innerText="Training & Certificates";
 
-aboutTitle:"About Me",
+document.getElementById("languagesTitle").innerText="Languages";
 
-aboutText:"I am a committed, responsible and results-oriented professional with a Bachelor's Degree in Law and Political Science.",
+document.getElementById("dari").innerText="Dari: Fluent";
+document.getElementById("pashto").innerText="Pashto: Fluent";
+document.getElementById("english").innerText="English: Improving";
 
-aboutText2:"I have professional experience in administration, accounting, financial reporting, data management and community engagement. I am interested in humanitarian and development opportunities where I can contribute my skills and experience.",
+document.getElementById("contactTitle").innerText="Contact Me";
+document.getElementById("emailLabel").innerText="Email:";
+document.getElementById("phoneLabel").innerText="Phone:";
+document.getElementById("phoneLabel2").innerText="Phone:";
+document.getElementById("contactLocation").innerText="📍 Herat, Afghanistan";
 
-educationTitle:"Education",
+}
 
-degree:"Bachelor's Degree in Law and Political Science",
 
-graduation:"Graduated: 2023",
+if(language === "fa"){
 
-experienceTitle:"Professional Experience",
+document.documentElement.lang="fa";
+document.documentElement.dir="rtl";
 
-position:"Accountant",
+document.getElementById("job").innerText="کارمند امور اداری و مشارکت اجتماعی";
+document.getElementById("location").innerText="هرات، افغانستان";
 
-experienceLocation:"Zawal District, Herat | 2023 – 2026",
+document.getElementById("navAbout").innerText="درباره من";
+document.getElementById("navEducation").innerText="تحصیلات";
+document.getElementById("navExperience").innerText="تجربه کاری";
+document.getElementById("navVolunteer").innerText="فعالیت داوطلبانه";
+document.getElementById("navSkills").innerText="مهارت‌ها";
+document.getElementById("navContact").innerText="تماس";
 
-experience:[
+document.getElementById("aboutTitle").innerText="درباره من";
 
-"Maintained financial and accounting records.",
+document.getElementById("aboutText").innerText=
+"من یک فرد متعهد، مسئول و نتیجه‌گرا هستم که دارای مدرک لیسانس حقوق و علوم سیاسی می‌باشم.";
 
-"Prepared financial and monthly sales reports.",
+document.getElementById("aboutText2").innerText=
+"من در زمینه امور اداری، حسابداری، گزارش‌دهی مالی، مدیریت اطلاعات و مشارکت اجتماعی تجربه کاری دارم و علاقه‌مند به فرصت‌های بشردوستانه و انکشافی هستم.";
 
-"Managed accounts payable and receivable records.",
+document.getElementById("educationTitle").innerText="تحصیلات";
+document.getElementById("degree").innerText="لیسانس حقوق و علوم سیاسی";
+document.getElementById("graduation").innerText="سال فراغت: ۲۰۲۳";
 
-"Prepared inventory and stock reports.",
+document.getElementById("experienceTitle").innerText="تجربه کاری";
+document.getElementById("position").innerText="حسابدار";
+document.getElementById("experienceLocation").innerText="ولسوالی زاول، هرات | ۲۰۲۳ – ۲۰۲۶";
 
-"Maintained customer registration and data records.",
+document.getElementById("volunteerTitle").innerText="تجربه داوطلبانه";
 
-"Supported daily accounting and financial activities."
+document.getElementById("skillsTitle").innerText="مهارت‌های حرفه‌ای";
 
-],
+document.getElementById("trainingTitle").innerText="آموزش‌ها و گواهینامه‌ها";
 
-volunteerTitle:"Volunteer Experience",
+document.getElementById("languagesTitle").innerText="زبان‌ها";
 
-volunteer:[
+document.getElementById("dari").innerText="دری: عالی";
+document.getElementById("pashto").innerText="پشتو: عالی";
+document.getElementById("english").innerText="انگلیسی: در حال بهبود";
 
-"Supported community outreach and awareness activities.",
+document.getElementById("contactTitle").innerText="تماس با من";
+document.getElementById("emailLabel").innerText="ایمیل:";
+document.getElementById("phoneLabel").innerText="شماره تماس:";
+document.getElementById("phoneLabel2").innerText="شماره تماس:";
+document.getElementById("contactLocation").innerText="📍 هرات، افغانستان";
 
-"Communicated with community members and identified concerns.",
+}
 
-"Supported information sharing and community engagement.",
 
-"Promoted protection principles and humanitarian values."
+if(language === "ps"){
 
-],
+document.documentElement.lang="ps";
+document.documentElement.dir="rtl";
 
-skillsTitle:"Professional Skills",
+document.getElementById("job").innerText="د اداري چارو او ټولنیزې ونډې مسلکي کارکوونکی";
+document.getElementById("location").innerText="هرات، افغانستان";
 
-trainingTitle:"Training & Certificates",
+document.getElementById("navAbout").innerText="زما په اړه";
+document.getElementById("navEducation").innerText="زده کړې";
+document.getElementById("navExperience").innerText="کاري تجربه";
+document.getElementById("navVolunteer").innerText="رضاکارانه فعالیت";
+document.getElementById("navSkills").innerText="مسلکي مهارتونه";
+document.getElementById("navContact").innerText="اړیکه";
 
-training:[
+document.getElementById("aboutTitle").innerText="زما په اړه";
 
-"Protection from Sexual Exploitation and Abuse (PSEA)",
+document.getElementById("aboutText").innerText=
+"زه یو ژمن، مسؤول او د پایلو پر بنسټ مسلکي شخص یم چې د حقوقو او سیاسي علومو په برخه کې د لیسانس سند لرم.";
 
-"Fraud Prevention",
+document.getElementById("aboutText2").innerText=
+"زه په اداري چارو، محاسبې، مالي راپور ورکولو، معلوماتو مدیریت او له ټولنې سره د اړیکو په برخه کې کاري تجربه لرم او له بشري او پراختیايي فرصتونو سره لېوالتیا لرم.";
 
-"Anti-Corruption",
+document.getElementById("educationTitle").innerText="زده کړې";
+document.getElementById("degree").innerText="د حقوقو او سیاسي علومو په برخه کې د لیسانس سند";
+document.getElementById("graduation").innerText="د فراغت کال: ۲۰۲۳";
 
-"Code of Conduct",
+document.getElementById("experienceTitle").innerText="کاري تجربه";
+document.getElementById("position").innerText="محاسب";
+document.getElementById("experienceLocation").innerText="د زاول ولسوالۍ، هرات | ۲۰۲۳ – ۲۰۲۶";
 
-"Protection Principles and Safeguarding"
+document.getElementById("volunteerTitle").innerText="رضاکارانه تجربه";
 
-],
+document.getElementById("skillsTitle").innerText="مسلکي مهارتونه";
 
-languagesTitle:"Languages",
+document.getElementById("trainingTitle").innerText="روزنې او سندونه";
 
-dari:"Dari: Fluent",
+document.getElementById("languagesTitle").innerText="ژبې";
 
-pashto:"Pashto: Fluent",
+document.getElementById("dari").innerText="دري: روان";
+document.getElementById("pashto").innerText="پښتو: روان";
+document.getElementById("english").innerText="انګلیسي: د پرمختګ په حال کې";
 
-english:"English: Improving",
+document.getElementById("contactTitle").innerText="اړیکه";
+document.getElementById("emailLabel").innerText="برېښنالیک:";
+document.getElementById("phoneLabel").innerText="د اړیکې شمېره:";
+document.getElementById("phoneLabel2").innerText="د اړیکې شمېره:";
+document.getElementById("contactLocation").innerText="📍 هرات، افغانستان";
 
-contactTitle:"Contact Me",
+}
 
-email:"Email:",
+}
 
-phone:"Phone:",
+</script>
 
-contactLocation:"📍 Herat, Afghanistan",
-
-footer:"Professional Profile"
-
-},
-
-fa:{
-
-dir:"rtl",
-
-name:"گل آقا نیکزاد",
-
-job:"کارمند امور اداری و مشارکت اجتماعی",
-
-location:"هرات، افغانستان",
-
-contact:"تماس با من",
-
-about:"درباره من",
-
-education:"تحصیلات",
-
-experience:"تجربه کاری",
-
-volunteer:"فعالیت داوطلبانه",
-
-skills:"مهارت‌ها",
-
-contactNav:"تماس",
-
-aboutTitle:"درباره من",
-
-aboutText:"من یک فرد متعهد، مسئول و نتیجه‌گرا هستم که دارای مدرک لیسانس حقوق و علوم سیاسی می‌باشم.",
-
-aboutText2:"من در زمینه امور اداری، حسابداری، گزارش‌دهی مالی، مدیریت اطلاعات و مشارکت اجتماعی تجربه کاری دارم و علاقه‌مند به فرصت‌های بشردوستانه و انکشافی هستم.",
-
-educationTitle:"تحصیلات",
-
-degree:"لیسانس حقوق و علوم سیاسی",
-
-graduation:"سال فراغت: ۲۰۲۳",
-
-experienceTitle:"تجربه کاری",
-
-position:"حسابدار",
-
-experienceLocation:"ولسوالی زاول، هرات | ۲۰۲۳ – ۲۰۲۶",
-
-experience:[
-
-"مدیریت سوابق مالی و حسابداری.",
-
-"تهیه گزارش‌های مالی و فروش ماهانه.",
-
-"مدیریت سوابق حساب‌های پرداختنی و دریافتنی.",
-
-"تهیه گزارش‌های موجودی و ذخایر.",
-
-"ثبت و مدیریت اطلاعات مشتریان.",
-
-"پشتیبانی از فعالیت‌های روزانه حسابداری و مالی."
-
-],
-
-volunteerTitle:"تجربه داوطلبانه",
-
-volunteer:[
-
-"پشتیبانی از فعالیت‌های آگاهی‌دهی و ارتباط با جامعه.",
-
-"ارتباط با اعضای جامعه و شناسایی مشکلات و نیازهای آنان.",
-
-"پشتیبانی از اطلاع‌رسانی و مشارکت جامعه.",
-
-"ترویج اصول حفاظت و ارزش‌های بشردوستانه."
-
-],
-
-skillsTitle:"مهارت‌های حرفه‌ای",
-
-trainingTitle:"آموزش‌ها و گواهینامه‌ها",
-
-training:[
-
-"محافظت در برابر سوءاستفاده و استثمار جنسی (PSEA)",
-
-"جلوگیری از
+</body>
+  </html>
