@@ -186,9 +186,9 @@ I have professional experience in administration, accounting, financial reportin
 </section>
 <section id="cv" style="text-align:center;">
 
-<h2>Download CV</h2>
+<h2 id="cvTitle">Download CV</h2>
 
-<p>
+<p id="cvText">
 You can download my latest professional CV here.
 </p>
 
@@ -200,7 +200,7 @@ padding:12px 25px;
 border-radius:25px;
 font-size:16px;
 ">
-📄 Download CV
+ <span id="cvButton">📄 Download CV</span>
 </button>
 </a>
 
@@ -455,7 +455,9 @@ Phone:
 
 function changeLanguage(language){
 
-if(language === "en"){
+if(language === "en" document.getElementById("cvTitle").innerText="Download CV";
+document.getElementById("cvText").innerText="You can download my latest professional CV here.";
+document.getElementById("cvButton").innerText="📄 Download CV"; ){
 
 document.documentElement.lang="en";
 document.documentElement.dir="ltr";
@@ -507,7 +509,9 @@ document.getElementById("contactLocation").innerText="📍 Herat, Afghanistan";
 }
 
 
-if(language === "fa"){
+if(language === "fa" document.getElementById("cvTitle").innerText="دانلود سی‌وی";
+document.getElementById("cvText").innerText="می‌توانید آخرین سی‌وی حرفه‌ای من را از اینجا دانلود کنید.";
+document.getElementById("cvButton").innerText="📄 دانلود سی‌وی"; ){
 
 document.documentElement.lang="fa";
 document.documentElement.dir="rtl";
@@ -559,7 +563,9 @@ document.getElementById("contactLocation").innerText="📍 هرات، افغان
 }
 
 
-if(language === "ps"){
+if(language === "ps" document.getElementById("cvTitle").innerText="د CV ډاونلوډ";
+document.getElementById("cvText").innerText="تاسو کولی شئ زما وروستی مسلکي CV له دې ځایه ډاونلوډ کړئ.";
+document.getElementById("cvButton").innerText="📄 CV ډاونلوډ"; ){
 
 document.documentElement.lang="ps";
 document.documentElement.dir="rtl";
