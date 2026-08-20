@@ -3,16 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Gulaqa Nikzad</title>
 
 <style>
+
 body{
     margin:0;
     font-family:Arial,Tahoma,sans-serif;
     background:#f4f7fb;
     color:#222;
     line-height:1.7;
-} .profile-photo{
+}
+
+.profile-photo{
     width:150px;
     height:150px;
     object-fit:cover;
@@ -21,30 +25,42 @@ body{
     box-shadow:0 4px 15px rgba(0,0,0,0.25);
     margin-bottom:15px;
 }
+
 header{
     background:#0b3d91;
     color:white;
     text-align:center;
     padding:45px 15px;
 }
-h1{margin:0;font-size:38px}
-header p{margin:7px}
+
+h1{
+    margin:0;
+    font-size:38px;
+}
+
+header p{
+    margin:7px;
+}
+
 nav{
     background:white;
     text-align:center;
     padding:15px;
 }
+
 nav a{
     color:#0b3d91;
     text-decoration:none;
     margin:8px;
     font-weight:bold;
 }
+
 .container{
     max-width:1000px;
     margin:auto;
     padding:20px;
 }
+
 section{
     background:white;
     margin:20px 0;
@@ -52,11 +68,13 @@ section{
     border-radius:12px;
     box-shadow:0 2px 8px #ddd;
 }
+
 h2{
     color:#0b3d91;
     border-bottom:2px solid #1769d1;
     padding-bottom:5px;
 }
+
 button{
     padding:9px 15px;
     margin:4px;
@@ -65,11 +83,13 @@ button{
     cursor:pointer;
     font-weight:bold;
 }
+
 .contact a{
     color:#0b3d91;
     font-weight:bold;
     text-decoration:none;
 }
+
 .skill{
     display:inline-block;
     background:#e8f0ff;
@@ -78,21 +98,34 @@ button{
     margin:4px;
     border-radius:18px;
 }
+
+.cv-button{
+    background:#0b3d91;
+    color:white;
+    padding:12px 25px;
+    border-radius:25px;
+    font-size:16px;
+}
+
 footer{
     background:#0b3d91;
     color:white;
     text-align:center;
     padding:20px;
 }
+
 </style>
 </head>
 
 <body>
 
-<header>  
- <img src="profile_photo-1.jpg" alt="Gulaqa Nikzad" class="profile-photo">
+<header>
 
-<h1 id="name">Gulaqa Nikzad</h1>
+<img src="profile_photo-1.jpg"
+     alt="Gulaqa Nikzad"
+     class="profile-photo">
+
+<h1>Gulaqa Nikzad</h1>
 
 <p id="job">
 Administrative & Community Engagement Professional
@@ -169,6 +202,8 @@ Contact
 <div class="container">
 
 
+<!-- ABOUT -->
+
 <section id="about">
 
 <h2 id="aboutTitle">
@@ -184,27 +219,36 @@ I have professional experience in administration, accounting, financial reportin
 </p>
 
 </section>
+
+
+<!-- CV -->
+
 <section id="cv" style="text-align:center;">
 
-<h2 id="cvTitle">Download CV</h2>
+<h2 id="cvTitle">
+Download CV
+</h2>
 
 <p id="cvText">
 You can download my latest professional CV here.
 </p>
 
-<a href="Gulaqa_Nikzad_CV.pdf" download>
-<button style="
-background:#0b3d91;
-color:white;
-padding:12px 25px;
-border-radius:25px;
-font-size:16px;
-">
- <span id="cvButton">📄 Download CV</span>
+<a href="Gulaqa_Nikzad_CV%20%281%29.pdf" download>
+
+<button class="cv-button">
+
+<span id="cvButton">
+📄 Download CV
+</span>
+
 </button>
+
 </a>
 
 </section>
+
+
+<!-- EDUCATION -->
 
 <section id="education">
 
@@ -227,6 +271,8 @@ Graduated: 2023
 </section>
 
 
+<!-- EXPERIENCE -->
+
 <section id="experience">
 
 <h2 id="experienceTitle">
@@ -247,29 +293,29 @@ Akhtar Mohammad Private Gas Company
 Zawal District, Herat | 2023 – 2026
 </p>
 
-<ul id="experienceList">
+<ul>
 
-<li>
+<li id="exp1">
 Maintained financial and accounting records.
 </li>
 
-<li>
+<li id="exp2">
 Prepared financial and monthly sales reports.
 </li>
 
-<li>
+<li id="exp3">
 Managed accounts payable and receivable records.
 </li>
 
-<li>
+<li id="exp4">
 Prepared inventory and stock reports.
 </li>
 
-<li>
+<li id="exp5">
 Maintained customer registration and data records.
 </li>
 
-<li>
+<li id="exp6">
 Supported daily accounting and financial activities.
 </li>
 
@@ -278,13 +324,15 @@ Supported daily accounting and financial activities.
 </section>
 
 
+<!-- VOLUNTEER -->
+
 <section id="volunteer">
 
 <h2 id="volunteerTitle">
 Volunteer Experience
 </h2>
 
-<h3>
+<h3 id="volunteerPosition">
 Community Outreach Volunteer (COV)
 </h3>
 
@@ -294,25 +342,25 @@ Ansari Rehabilitation Association for Afghanistan (ARAA)
 </strong>
 </p>
 
-<p>
+<p id="volunteerProject">
 UNHCR-supported project
 </p>
 
-<ul id="volunteerList">
+<ul>
 
-<li>
+<li id="vol1">
 Supported community outreach and awareness activities.
 </li>
 
-<li>
+<li id="vol2">
 Communicated with community members and identified concerns.
 </li>
 
-<li>
+<li id="vol3">
 Supported information sharing and community engagement.
 </li>
 
-<li>
+<li id="vol4">
 Promoted protection principles and humanitarian values.
 </li>
 
@@ -320,6 +368,8 @@ Promoted protection principles and humanitarian values.
 
 </section>
 
+
+<!-- SKILLS -->
 
 <section id="skills">
 
@@ -342,31 +392,33 @@ Professional Skills
 </section>
 
 
+<!-- TRAINING -->
+
 <section>
 
 <h2 id="trainingTitle">
 Training & Certificates
 </h2>
 
-<ul id="trainingList">
+<ul>
 
-<li>
+<li id="training1">
 Protection from Sexual Exploitation and Abuse (PSEA)
 </li>
 
-<li>
+<li id="training2">
 Fraud Prevention
 </li>
 
-<li>
+<li id="training3">
 Anti-Corruption
 </li>
 
-<li>
+<li id="training4">
 Code of Conduct
 </li>
 
-<li>
+<li id="training5">
 Protection Principles and Safeguarding
 </li>
 
@@ -374,6 +426,8 @@ Protection Principles and Safeguarding
 
 </section>
 
+
+<!-- LANGUAGES -->
 
 <section>
 
@@ -396,6 +450,8 @@ English: Improving
 </section>
 
 
+<!-- CONTACT -->
+
 <section id="contact" class="contact">
 
 <h2 id="contactTitle">
@@ -403,7 +459,10 @@ Contact Me
 </h2>
 
 <p>
-✉️ <strong id="emailLabel">
+
+✉️
+
+<strong id="emailLabel">
 Email:
 </strong>
 
@@ -413,8 +472,12 @@ gulaqha40@gmail.com
 
 </p>
 
+
 <p>
-📞 <strong id="phoneLabel">
+
+📞
+
+<strong id="phoneLabel">
 Phone:
 </strong>
 
@@ -424,8 +487,12 @@ Phone:
 
 </p>
 
+
 <p>
-📞 <strong id="phoneLabel2">
+
+📞
+
+<strong id="phoneLabel2">
 Phone:
 </strong>
 
@@ -434,6 +501,7 @@ Phone:
 </a>
 
 </p>
+
 
 <p id="contactLocation">
 📍 Herat, Afghanistan
@@ -453,172 +521,370 @@ Phone:
 
 <script>
 
-function changeLanguage(language){
+function changeLanguage(language) {
 
-if(language === "en" document.getElementById("cvTitle").innerText="Download CV";
-document.getElementById("cvText").innerText="You can download my latest professional CV here.";
-document.getElementById("cvButton").innerText="📄 Download CV"; ){
 
-document.documentElement.lang="en";
-document.documentElement.dir="ltr";
+// ================= ENGLISH =================
 
-document.getElementById("job").innerText="Administrative & Community Engagement Professional";
-document.getElementById("location").innerText="Herat, Afghanistan";
+if (language === "en") {
 
-document.getElementById("navAbout").innerText="About";
-document.getElementById("navEducation").innerText="Education";
-document.getElementById("navExperience").innerText="Experience";
-document.getElementById("navVolunteer").innerText="Volunteer";
-document.getElementById("navSkills").innerText="Skills";
-document.getElementById("navContact").innerText="Contact";
+document.documentElement.lang = "en";
+document.documentElement.dir = "ltr";
 
-document.getElementById("aboutTitle").innerText="About Me";
+document.getElementById("job").innerText =
+"Administrative & Community Engagement Professional";
 
-document.getElementById("aboutText").innerText=
+document.getElementById("location").innerText =
+"Herat, Afghanistan";
+
+document.getElementById("navAbout").innerText =
+"About";
+
+document.getElementById("navEducation").innerText =
+"Education";
+
+document.getElementById("navExperience").innerText =
+"Experience";
+
+document.getElementById("navVolunteer").innerText =
+"Volunteer";
+
+document.getElementById("navSkills").innerText =
+"Skills";
+
+document.getElementById("navContact").innerText =
+"Contact";
+
+
+document.getElementById("aboutTitle").innerText =
+"About Me";
+
+document.getElementById("aboutText").innerText =
 "I am a committed, responsible and results-oriented professional with a Bachelor's Degree in Law and Political Science.";
 
-document.getElementById("aboutText2").innerText=
+document.getElementById("aboutText2").innerText =
 "I have professional experience in administration, accounting, financial reporting, data management and community engagement. I am interested in humanitarian and development opportunities where I can contribute my skills and experience.";
 
-document.getElementById("educationTitle").innerText="Education";
-document.getElementById("degree").innerText="Bachelor's Degree in Law and Political Science";
-document.getElementById("graduation").innerText="Graduated: 2023";
 
-document.getElementById("experienceTitle").innerText="Professional Experience";
-document.getElementById("position").innerText="Accountant";
-document.getElementById("experienceLocation").innerText="Zawal District, Herat | 2023 – 2026";
+document.getElementById("cvTitle").innerText =
+"Download CV";
 
-document.getElementById("volunteerTitle").innerText="Volunteer Experience";
+document.getElementById("cvText").innerText =
+"You can download my latest professional CV here.";
 
-document.getElementById("skillsTitle").innerText="Professional Skills";
+document.getElementById("cvButton").innerText =
+"📄 Download CV";
 
-document.getElementById("trainingTitle").innerText="Training & Certificates";
 
-document.getElementById("languagesTitle").innerText="Languages";
+document.getElementById("educationTitle").innerText =
+"Education";
 
-document.getElementById("dari").innerText="Dari: Fluent";
-document.getElementById("pashto").innerText="Pashto: Fluent";
-document.getElementById("english").innerText="English: Improving";
+document.getElementById("degree").innerText =
+"Bachelor's Degree in Law and Political Science";
 
-document.getElementById("contactTitle").innerText="Contact Me";
-document.getElementById("emailLabel").innerText="Email:";
-document.getElementById("phoneLabel").innerText="Phone:";
-document.getElementById("phoneLabel2").innerText="Phone:";
-document.getElementById("contactLocation").innerText="📍 Herat, Afghanistan";
+document.getElementById("graduation").innerText =
+"Graduated: 2023";
+
+
+document.getElementById("experienceTitle").innerText =
+"Professional Experience";
+
+document.getElementById("position").innerText =
+"Accountant";
+
+document.getElementById("experienceLocation").innerText =
+"Zawal District, Herat | 2023 – 2026";
+
+
+document.getElementById("exp1").innerText =
+"Maintained financial and accounting records.";
+
+document.getElementById("exp2").innerText =
+"Prepared financial and monthly sales reports.";
+
+document.getElementById("exp3").innerText =
+"Managed accounts payable and receivable records.";
+
+document.getElementById("exp4").innerText =
+"Prepared inventory and stock reports.";
+
+document.getElementById("exp5").innerText =
+"Maintained customer registration and data records.";
+
+document.getElementById("exp6").innerText =
+"Supported daily accounting and financial activities.";
+
+
+document.getElementById("volunteerTitle").innerText =
+"Volunteer Experience";
+
+document.getElementById("volunteerProject").innerText =
+"UNHCR-supported project";
+
+document.getElementById("vol1").innerText =
+"Supported community outreach and awareness activities.";
+
+document.getElementById("vol2").innerText =
+"Communicated with community members and identified concerns.";
+
+document.getElementById("vol3").innerText =
+"Supported information sharing and community engagement.";
+
+document.getElementById("vol4").innerText =
+"Promoted protection principles and humanitarian values.";
+
+
+document.getElementById("trainingTitle").innerText =
+"Training & Certificates";
+
+document.getElementById("languagesTitle").innerText =
+"Languages";
+
+document.getElementById("dari").innerText =
+"Dari: Fluent";
+
+document.getElementById("pashto").innerText =
+"Pashto: Fluent";
+
+document.getElementById("english").innerText =
+"English: Improving";
+
+
+document.getElementById("contactTitle").innerText =
+"Contact Me";
+
+document.getElementById("emailLabel").innerText =
+"Email:";
+
+document.getElementById("phoneLabel").innerText =
+"Phone:";
+
+document.getElementById("phoneLabel2").innerText =
+"Phone:";
+
+document.getElementById("contactLocation").innerText =
+"📍 Herat, Afghanistan";
 
 }
 
 
-if(language === "fa" document.getElementById("cvTitle").innerText="دانلود سی‌وی";
-document.getElementById("cvText").innerText="می‌توانید آخرین سی‌وی حرفه‌ای من را از اینجا دانلود کنید.";
-document.getElementById("cvButton").innerText="📄 دانلود سی‌وی"; ){
+// ================= DARI =================
 
-document.documentElement.lang="fa";
-document.documentElement.dir="rtl";
+if (language === "fa") {
 
-document.getElementById("job").innerText="کارمند امور اداری و مشارکت اجتماعی";
-document.getElementById("location").innerText="هرات، افغانستان";
+document.documentElement.lang = "fa";
+document.documentElement.dir = "rtl";
 
-document.getElementById("navAbout").innerText="درباره من";
-document.getElementById("navEducation").innerText="تحصیلات";
-document.getElementById("navExperience").innerText="تجربه کاری";
-document.getElementById("navVolunteer").innerText="فعالیت داوطلبانه";
-document.getElementById("navSkills").innerText="مهارت‌ها";
-document.getElementById("navContact").innerText="تماس";
+document.getElementById("job").innerText =
+"کارمند امور اداری و مشارکت اجتماعی";
 
-document.getElementById("aboutTitle").innerText="درباره من";
+document.getElementById("location").innerText =
+"هرات، افغانستان";
 
-document.getElementById("aboutText").innerText=
+
+document.getElementById("navAbout").innerText =
+"درباره من";
+
+document.getElementById("navEducation").innerText =
+"تحصیلات";
+
+document.getElementById("navExperience").innerText =
+"تجربه کاری";
+
+document.getElementById("navVolunteer").innerText =
+"فعالیت داوطلبانه";
+
+document.getElementById("navSkills").innerText =
+"مهارت‌ها";
+
+document.getElementById("navContact").innerText =
+"تماس";
+
+
+document.getElementById("aboutTitle").innerText =
+"درباره من";
+
+document.getElementById("aboutText").innerText =
 "من یک فرد متعهد، مسئول و نتیجه‌گرا هستم که دارای مدرک لیسانس حقوق و علوم سیاسی می‌باشم.";
 
-document.getElementById("aboutText2").innerText=
+document.getElementById("aboutText2").innerText =
 "من در زمینه امور اداری، حسابداری، گزارش‌دهی مالی، مدیریت اطلاعات و مشارکت اجتماعی تجربه کاری دارم و علاقه‌مند به فرصت‌های بشردوستانه و انکشافی هستم.";
 
-document.getElementById("educationTitle").innerText="تحصیلات";
-document.getElementById("degree").innerText="لیسانس حقوق و علوم سیاسی";
-document.getElementById("graduation").innerText="سال فراغت: ۲۰۲۳";
 
-document.getElementById("experienceTitle").innerText="تجربه کاری";
-document.getElementById("position").innerText="حسابدار";
-document.getElementById("experienceLocation").innerText="ولسوالی زاول، هرات | ۲۰۲۳ – ۲۰۲۶";
+document.getElementById("cvTitle").innerText =
+"دانلود سی‌وی";
 
-document.getElementById("volunteerTitle").innerText="تجربه داوطلبانه";
+document.getElementById("cvText").innerText =
+"می‌توانید آخرین سی‌وی حرفه‌ای من را از اینجا دانلود کنید.";
 
-document.getElementById("skillsTitle").innerText="مهارت‌های حرفه‌ای";
+document.getElementById("cvButton").innerText =
+"📄 دانلود سی‌وی";
 
-document.getElementById("trainingTitle").innerText="آموزش‌ها و گواهینامه‌ها";
 
-document.getElementById("languagesTitle").innerText="زبان‌ها";
+document.getElementById("educationTitle").innerText =
+"تحصیلات";
 
-document.getElementById("dari").innerText="دری: عالی";
-document.getElementById("pashto").innerText="پشتو: عالی";
-document.getElementById("english").innerText="انگلیسی: در حال بهبود";
+document.getElementById("degree").innerText =
+"لیسانس حقوق و علوم سیاسی";
 
-document.getElementById("contactTitle").innerText="تماس با من";
-document.getElementById("emailLabel").innerText="ایمیل:";
-document.getElementById("phoneLabel").innerText="شماره تماس:";
-document.getElementById("phoneLabel2").innerText="شماره تماس:";
-document.getElementById("contactLocation").innerText="📍 هرات، افغانستان";
+document.getElementById("graduation").innerText =
+"سال فراغت: ۲۰۲۳";
+
+
+document.getElementById("experienceTitle").innerText =
+"تجربه کاری";
+
+document.getElementById("position").innerText =
+"حسابدار";
+
+document.getElementById("experienceLocation").innerText =
+"ولسوالی زاول، هرات | ۲۰۲۳ – ۲۰۲۶";
+
+
+document.getElementById("exp1").innerText =
+"ثبت و نگهداری اسناد مالی و حسابداری.";
+
+document.getElementById("exp2").innerText =
+"تهیه گزارش‌های مالی و فروش ماهانه.";
+
+document.getElementById("exp3").innerText =
+"مدیریت اسناد حساب‌های پرداختنی و دریافتنی.";
+
+document.getElementById("exp4").innerText =
+"تهیه گزارش‌های موجودی و ذخایر.";
+
+document.getElementById("exp5").innerText =
+"ثبت اطلاعات مشتریان و مدیریت سوابق.";
+
+document.getElementById("exp6").innerText =
+"پشتیبانی از فعالیت‌های روزمره حسابداری و مالی.";
+
+
+document.getElementById("volunteerTitle").innerText =
+"تجربه داوطلبانه";
+
+document.getElementById("volunteerProject").innerText =
+"پروژه تحت حمایت UNHCR";
+
+document.getElementById("vol1").innerText =
+"حمایت از فعالیت‌های آگاهی‌دهی و ارتباط با جامعه.";
+
+document.getElementById("vol2").innerText =
+"ارتباط با اعضای جامعه و شناسایی مشکلات و نگرانی‌ها.";
+
+document.getElementById("vol3").innerText =
+"حمایت از اطلاع‌رسانی و مشارکت جامعه.";
+
+document.getElementById("vol4").innerText =
+"ترویج اصول حفاظت و ارزش‌های بشردوستانه.";
+
+
+document.getElementById("trainingTitle").innerText =
+"آموزش‌ها و گواهینامه‌ها";
+
+document.getElementById("languagesTitle").innerText =
+"زبان‌ها";
+
+document.getElementById("dari").innerText =
+"دری: عالی";
+
+document.getElementById("pashto").innerText =
+"پشتو: عالی";
+
+document.getElementById("english").innerText =
+"انگلیسی: در حال بهبود";
+
+
+document.getElementById("contactTitle").innerText =
+"تماس با من";
+
+document.getElementById("emailLabel").innerText =
+"ایمیل:";
+
+document.getElementById("phoneLabel").innerText =
+"شماره تماس:";
+
+document.getElementById("phoneLabel2").innerText =
+"شماره تماس:";
+
+document.getElementById("contactLocation").innerText =
+"📍 هرات، افغانستان";
 
 }
 
 
-if(language === "ps" document.getElementById("cvTitle").innerText="د CV ډاونلوډ";
-document.getElementById("cvText").innerText="تاسو کولی شئ زما وروستی مسلکي CV له دې ځایه ډاونلوډ کړئ.";
-document.getElementById("cvButton").innerText="📄 CV ډاونلوډ"; ){
+// ================= PASHTO =================
 
-document.documentElement.lang="ps";
-document.documentElement.dir="rtl";
+if (language === "ps") {
 
-document.getElementById("job").innerText="د اداري چارو او ټولنیزې ونډې مسلکي کارکوونکی";
-document.getElementById("location").innerText="هرات، افغانستان";
+document.documentElement.lang = "ps";
+document.documentElement.dir = "rtl";
 
-document.getElementById("navAbout").innerText="زما په اړه";
-document.getElementById("navEducation").innerText="زده کړې";
-document.getElementById("navExperience").innerText="کاري تجربه";
-document.getElementById("navVolunteer").innerText="رضاکارانه فعالیت";
-document.getElementById("navSkills").innerText="مسلکي مهارتونه";
-document.getElementById("navContact").innerText="اړیکه";
+document.getElementById("job").innerText =
+"د اداري چارو او ټولنیزې ونډې مسلکي کارکوونکی";
 
-document.getElementById("aboutTitle").innerText="زما په اړه";
+document.getElementById("location").innerText =
+"هرات، افغانستان";
 
-document.getElementById("aboutText").innerText=
+
+document.getElementById("navAbout").innerText =
+"زما په اړه";
+
+document.getElementById("navEducation").innerText =
+"زده کړې";
+
+document.getElementById("navExperience").innerText =
+"کاري تجربه";
+
+document.getElementById("navVolunteer").innerText =
+"رضاکارانه فعالیت";
+
+document.getElementById("navSkills").innerText =
+"مسلکي مهارتونه";
+
+document.getElementById("navContact").innerText =
+"اړیکه";
+
+
+document.getElementById("aboutTitle").innerText =
+"زما په اړه";
+
+document.getElementById("aboutText").innerText =
 "زه یو ژمن، مسؤول او د پایلو پر بنسټ مسلکي شخص یم چې د حقوقو او سیاسي علومو په برخه کې د لیسانس سند لرم.";
 
-document.getElementById("aboutText2").innerText=
+document.getElementById("aboutText2").innerText =
 "زه په اداري چارو، محاسبې، مالي راپور ورکولو، معلوماتو مدیریت او له ټولنې سره د اړیکو په برخه کې کاري تجربه لرم او له بشري او پراختیايي فرصتونو سره لېوالتیا لرم.";
 
-document.getElementById("educationTitle").innerText="زده کړې";
-document.getElementById("degree").innerText="د حقوقو او سیاسي علومو په برخه کې د لیسانس سند";
-document.getElementById("graduation").innerText="د فراغت کال: ۲۰۲۳";
 
-document.getElementById("experienceTitle").innerText="کاري تجربه";
-document.getElementById("position").innerText="محاسب";
-document.getElementById("experienceLocation").innerText="د زاول ولسوالۍ، هرات | ۲۰۲۳ – ۲۰۲۶";
+document.getElementById("cvTitle").innerText =
+"د CV ډاونلوډ";
 
-document.getElementById("volunteerTitle").innerText="رضاکارانه تجربه";
+document.getElementById("cvText").innerText =
+"تاسو کولی شئ زما وروستی مسلکي CV له دې ځایه ډاونلوډ کړئ.";
 
-document.getElementById("skillsTitle").innerText="مسلکي مهارتونه";
+document.getElementById("cvButton").innerText =
+"📄 CV ډاونلوډ";
 
-document.getElementById("trainingTitle").innerText="روزنې او سندونه";
 
-document.getElementById("languagesTitle").innerText="ژبې";
+document.getElementById("educationTitle").innerText =
+"زده کړې";
 
-document.getElementById("dari").innerText="دري: روان";
-document.getElementById("pashto").innerText="پښتو: روان";
-document.getElementById("english").innerText="انګلیسي: د پرمختګ په حال کې";
+document.getElementById("degree").innerText =
+"د حقوقو او سیاسي علومو په برخه کې د لیسانس سند";
 
-document.getElementById("contactTitle").innerText="اړیکه";
-document.getElementById("emailLabel").innerText="برېښنالیک:";
-document.getElementById("phoneLabel").innerText="د اړیکې شمېره:";
-document.getElementById("phoneLabel2").innerText="د اړیکې شمېره:";
-document.getElementById("contactLocation").innerText="📍 هرات، افغانستان";
+document.getElementById("graduation").innerText =
+"د فراغت کال: ۲۰۲۳";
 
-}
 
-}
+document.getElementById("experienceTitle").innerText =
+"کاري تجربه";
 
-</script>
+document.getElementById("position").innerText =
+"محاسب";
 
-</body>
-  </html>
+document.getElementById("experienceLocation").innerText =
+"د زاول ولسوالۍ، هرات | ۲۰۲۳ – ۲۰۲۶";
+
+
+document.getElementById("exp1").innerText =
+"د مالي او محاسبوي اسنادو سات
